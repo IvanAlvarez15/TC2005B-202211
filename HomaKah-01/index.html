@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homa Kah</title>
+    
+    <!-- meta viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Mulish:wght@200;700&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+    
+    <style>
+        
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+             
+        
+        
+        img{
+            display: block;
+            max-width: 100%
+        }
+        
+        
+        body{
+            background-color: #f9f6ee;
+        }
+        
+        #home{
+            background-image: url("img/1-1.jpeg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            width: 100vw; /* vw = viewport width */
+            height: 100vh; /* vh = viewport height */
+        }
+        
+        #home img{
+            max-width: 70%;
+            margin: 0px auto 0 auto;
+            display: block;
+            padding-top: 80px;
+        }
+        
+        section#about .about-main-img{
+            max-width: 70%;
+            margin: 40px auto 0px;
+        }
+        
+        section#about .about-icon{
+            max-width: 40px;
+            display: inline-block;
+            vertical-align: text-top;
+            margin-right: 8px;
+        }
+        
+        section#about .about-secondary-img{
+            margin-top: 50px;
+        }
+        
+        p.general{
+            font-family: 'Lato', sans-serif;
+            font-size: 13px;
+            line-height: 1.5;
+            width: 80%;
+            text-align: justify;
+            margin: 30px auto;
+        }
+        
+        p.centered{
+            text-align: center;
+            margin: 10px auto;
+        }
+        
+        
+        h1{
+            font-family: 'Tenor Sans', sans-serif;
+            font-size: 36px;
+            color: #7c825e;
+            text-align: center;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+        
+        h1 span{
+            font-family: 'Caveat', sans-serif;
+            color: #666;
+            font-size: 56px;    
+        }
+        
+        h1:nth-child(2){
+            font-family: 'Caveat', sans-serif;
+            color: #666; 
+            text-align: right;
+            margin-top: -14px;
+        }
+        
+        h2{
+            font-family: 'Tenor Sans', sans-serif;
+            font-size: 20px;
+            color: #7c825e;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        section#principles .principle{
+            margin-top: 30px;
+        }
+        
+        section#principles .principle .principle-container{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        
+        
+        .principle-icon{
+            max-width: 100px;
+            padding: 20px;
+        }
+        
+        p.principlep{
+            width: 50%;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <section id="home"> 
+       <img src="img/homakah.svg" alt="Homa Kah Logo">
+    </section>
+    
+    <section id="about">
+        <img src="img/homakah-green.svg" class="about-main-img">
+        <p class="general">HOMA is a ritual of life where we celebrate each day in conscious harmony. Our goal is to provide our Homats with a space they use to transform their routines into a new experience… everyday.</p>
+        <p class="general">Kah is the creative energy that flows through our soul and which represents home. Here is where we belong; a space to reinvent ourselves by living within a community that feels like family and where to grow roots from.</p>
+        <p class="general centered"><img class="about-icon" src="img/homa.svg"> is your HOME...</p>
+        <p class="general centered"><img class="about-icon" src="img/kah.svg"> is your origin...</p>
+        <img src="img/projectOverview.jpg" alt="Homa" class="about-secondary-img">
+    </section>
+    
+    <section id="principles">
+        
+        <h1>OUR <span>3</span> DESIGN</h1>
+        <h1>principles</h1>
+        
+        <div class="principle">
+            <h2>Sustainability</h2>
+            <div class="principle-container">
+                <img src="images/designprinciples/sustainability.svg" class="principle-icon">
+                <p class="general principlep">We are  committed to the protection of the environment. Utilizing innovative eco-friendly solutions, and protecting over 70% of the local vegetation.</p>
+            </div>
+        </div>
+        
+        <div class="principle">
+            <h2>User experience</h2>
+            <div class="principle-container">
+                <img src="images/designprinciples/optimize.svg" class="principle-icon">
+                <p class="general principlep">We are  committed to the protection of the environment. Utilizing innovative eco-friendly solutions, and protecting over 70% of the local vegetation.</p>
+            </div>
+        </div>
+        
+        <div class="principle">
+            <h2>Sustainability</h2>
+            <div class="principle-container">
+                <img src="images/designprinciples/sustainability.svg" class="principle-icon">
+                <p class="general principlep">We are  committed to the protection of the environment. Utilizing innovative eco-friendly solutions, and protecting over 70% of the local vegetation.</p>
+            </div>
+        </div>
+        
+        
+        
+    </section>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
